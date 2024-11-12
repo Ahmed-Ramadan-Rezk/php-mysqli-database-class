@@ -1,0 +1,15 @@
+{
+    "name": "php-learn/database-class",
+    "description": "A database class using mysqli",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
